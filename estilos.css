@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Oxygen&family=Prompt&family=Sigmar&display=swap');
+
+body{
+    background-color: beige;
+}
+
+#contenido{
+    width: 80%;
+    margin: auto;
+}
+
+#encabezamiento{
+    background-color: #ff533a;
+    font-family: Sigmar;
+    display: flex;
+    height: 100px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+#titulos{
+    text-align: center;
+    width: 100%;
+}
+
+h1{
+    margin: 0;
+}
+
+h2{
+    margin:0;
+}
+
+#menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    background-color: #fd982a;
+}
+
+a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: darkred;
+    font-family: Prompt;
+    font-weight: 700;   
+}
+
+a:hover{
+    color: lemonchiffon;
+}
+
+#principal{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #e9f6b3;
+}
+
+.articulo{
+    flex: 1 0 40%;
+    padding: 10px;
+    border: solid 1px black;
+    border-radius: 3px;
+    margin: 20px;
+    text-align: justify;
+    background-color: #b3d2a3;
+}
+
+.articulo h4{
+    font-family: Sigmar;
+    margin-bottom: 0px;
+}
+
+.articulo p{
+    font-family: Oxygen;
+    margin: 10px 0;
+}
+
+#pie{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-family: Oxygen;
+}
+
+
+
+
